@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Fade, makeStyles, Menu, MenuItem, Toolbar } from "@material-ui/core"
+import { AppBar, Box, Button, makeStyles, Menu, MenuItem, Toolbar } from "@material-ui/core"
 import React from "react";
 import { IMenu, ISubMenu, menuArray } from "../../assets/menu"
 
@@ -46,15 +46,15 @@ export const MenuComponent = () => {
 
 
     const generateSubMenu = (subMenuItems: ISubMenu[], name: string) => {
-        const meniuItems: any[] = [];
-        subMenuItems.map(subItem => {
-            meniuItems.push(
+        const menuItems: any[] = [];
+        subMenuItems.forEach(subItem => {
+            menuItems.push(
                 <MenuItem onClick={() => handleClose(name)} key={subItem.name}>
                     {subItem.name}
                 </MenuItem>
             )
         })
-        return meniuItems;
+        return menuItems;
     }
 
     const generateMenu = (item: IMenu) => {
