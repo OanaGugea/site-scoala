@@ -1,6 +1,6 @@
 import { AppBar, Box, Button, makeStyles, Menu, MenuItem, Toolbar } from "@material-ui/core"
 import React from "react";
-import { IMenu, ISubMenu, menuArray } from "../../assets/menu"
+import { IMenu, ISubMenu, menuArray } from "./assets/menu"
 
 const useStyle = makeStyles(() => ({
     appBar: {

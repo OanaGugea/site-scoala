@@ -30,23 +30,23 @@ export const menuArray: IMenu[] = [
             }
         ]
     },
-    {
-        name: 'Elevi',
-        subMenu: [
-            {
-                name: 'Clase',
-                link: 'link 1'
-            },
-        ]
-    },
+    // {
+    //     name: 'Elevi',
+    //     subMenu: [
+    //         {
+    //             name: 'Clase',
+    //             link: 'link 1'
+    //         },
+    //     ]
+    // },
     {
         name: 'Utile',
         subMenu: []
     },
-    {
-        name: 'Proiecte',
-        subMenu: []
-    },
+    // {
+    //     name: 'Proiecte',
+    //     subMenu: []
+    // },
     {
         name: 'Anunturi',
         subMenu: []
