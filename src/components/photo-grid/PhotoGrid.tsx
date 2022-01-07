@@ -1,5 +1,5 @@
-import frontPart from './assets/front-part.jpeg'
-import backPart from './assets/back-yard.jpeg'
+import frontPart from './../../assets/front-part.jpeg'
+import backPart from './../../assets/back-yard.jpeg'
 import {makeStyles} from "@material-ui/core/styles";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';

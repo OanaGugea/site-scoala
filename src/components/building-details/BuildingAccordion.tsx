@@ -23,7 +23,7 @@ export const BuildingAccordion = (props: {title: string, description: string, im
                     <Typography><b>{props.title}</b></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <img src={require(`./assets/${props.imageTitle}`)} alt={`${props.imageTitle}`} className={classes.photo}/>
+                    <img src={require(`./../../assets/${props.imageTitle}`)} alt={`${props.imageTitle}`} className={classes.photo}/>
                     <Typography>{props.description}</Typography>
                 </AccordionDetails>
             </Accordion>

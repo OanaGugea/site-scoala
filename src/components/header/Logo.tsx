@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
-import logo from './assets/sigla.png'
+import logo from './../../assets/sigla.png'
 
 const useStyle = makeStyles(() => ({
     logoImage: {
