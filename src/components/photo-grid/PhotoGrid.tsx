@@ -1,6 +1,5 @@
 import frontPart from './assets/front-part.jpeg'
 import backPart from './assets/back-yard.jpeg'
-import scoalaIlova from './assets/scoala-ilova.jpeg'
 import {makeStyles} from "@material-ui/core/styles";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -25,7 +24,6 @@ export const PhotoGrid = () => {
     <AwesomeSlider className={classes.photo}>
       <div><img src={frontPart} alt="front-part"/></div>
       <div><img src={backPart} alt="back-yard"/></div>
-      <div><img src={scoalaIlova} alt="scoala-ilova"/></div>
     </AwesomeSlider>
     )};
 
