@@ -18,7 +18,7 @@ export const menuArray: IMenu[] = [
         subMenu: [
             {
                 name: 'Structuri',
-                link: 'link 1'
+                link: '/structuri'
             },
             {
                 name: 'Laboratoare',
