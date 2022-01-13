@@ -1,5 +1,5 @@
 import { Logo } from "./Logo";
-import { MenuComponent } from "./Menu";
+import { MenuComponent } from "../menu/Menu";
 
 export const Header = () => {
   return (

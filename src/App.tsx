@@ -7,7 +7,7 @@ import { makeStyles, Paper } from "@material-ui/core";
 const useStyle = makeStyles(() => ({
   appContent: {
     position: "relative",
-    minHeight: "100%",
+    minHeight: "94vh",
     margin: "2% 5%",
   },
 }));

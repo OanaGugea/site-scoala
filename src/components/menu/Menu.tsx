@@ -8,7 +8,7 @@ import {
   Toolbar,
 } from "@material-ui/core";
 import React from "react";
-import { IMenu, ISubMenu, menuArray } from "./assets/menu";
+import { IMenu, ISubMenu, menuArray } from "./menu-content";
 import { useHistory } from "react-router-dom";
 
 const useStyle = makeStyles(() => ({

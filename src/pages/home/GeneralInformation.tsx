@@ -1,18 +1,31 @@
 import { makeStyles } from "@material-ui/core/styles";
+import ReactMarkdown from "react-markdown";
+// @ts-ignore
+import generalInfo from "../../files/generalInfo.md";
+import { useEffect, useState } from "react";
 
 const useStyle = makeStyles(() => ({
   textContainer: {
-    marginTop: "50px",
+    margin: "1%",
     width: "70%",
-    textAlign: "center",
   },
 }));
 
 export const GeneralInformation = () => {
   const classes = useStyle();
+  const [markdown, setMarkdown] = useState<string>("");
+
+  useEffect(() => {
+    fetch(generalInfo)
+      .then((res) => res.text())
+      .then((md) => {
+        setMarkdown(md);
+      });
+  }, []);
+
   return (
     <div className={classes.textContainer}>
-      <h2>General Infos</h2>
+      <ReactMarkdown>{markdown}</ReactMarkdown>
     </div>
   );
 };
