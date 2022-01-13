@@ -1,6 +1,7 @@
 export interface IMenu {
     name: string;
     subMenu: ISubMenu[];
+    link?: string;
 }
 
 export interface ISubMenu {
@@ -11,7 +12,8 @@ export interface ISubMenu {
 export const menuArray: IMenu[] = [
     {
         name: 'Acasa',
-        subMenu: []
+        subMenu: [],
+        link: '/'
     },
     {
         name: 'Despre',
@@ -41,7 +43,8 @@ export const menuArray: IMenu[] = [
     // },
     {
         name: 'Utile',
-        subMenu: []
+        subMenu: [],
+        link: '/utile'
     },
     // {
     //     name: 'Proiecte',
@@ -49,14 +52,17 @@ export const menuArray: IMenu[] = [
     // },
     {
         name: 'Anunturi',
-        subMenu: []
+        subMenu: [],
+        link: '/anunturi'
     },
     {
         name: 'Galerie Foto',
-        subMenu: []
+        subMenu: [],
+        link: '/galerie'
     },
     {
         name: 'Contact',
-        subMenu: []
+        subMenu: [],
+        link: '/contact'
     }
 ]

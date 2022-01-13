@@ -1,6 +1,7 @@
 import { AppBar, Box, Button, makeStyles, Menu, MenuItem, Toolbar } from "@material-ui/core"
 import React from "react";
 import { IMenu, ISubMenu, menuArray } from "./assets/menu"
+import {useHistory} from "react-router-dom";
 
 const useStyle = makeStyles(() => ({
     appBar: {
@@ -16,6 +17,7 @@ export const MenuComponent = () => {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const [openMenu, setOpenMenu] = React.useState<{ name: string, open: boolean }[]>([]);
     const classes = useStyle();
+    const history = useHistory();
 
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>, name: string) => {
         const oldValue = openMenu.find(item => item.name === name);
@@ -49,7 +51,10 @@ export const MenuComponent = () => {
         const menuItems: any[] = [];
         subMenuItems.forEach(subItem => {
             menuItems.push(
-                <MenuItem onClick={() => handleClose(name)} key={subItem.name}>
+                <MenuItem onClick={() => {
+                    handleClose(name);
+                    history.push(subItem.link)
+                }} key={subItem.name}>
                     {subItem.name}
                 </MenuItem>
             )
@@ -63,6 +68,10 @@ export const MenuComponent = () => {
         const menuOnClick = (event: React.MouseEvent<HTMLButtonElement>, name: string) => {
             if (item.subMenu.length > 0) {
                 handleClick(event, name);
+            } else {
+                if(item.link) {
+                    history.push(item.link);
+                }
             }
         }
 
