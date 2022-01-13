@@ -6,6 +6,7 @@ import {
 } from "@material-ui/core";
 import { ExpandMore } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
+import { extractImageSrc } from "./building-import-helper";
 
 const useStyle = makeStyles(() => ({
   photo: {
@@ -18,9 +19,10 @@ const useStyle = makeStyles(() => ({
 export const BuildingAccordion = (props: {
   title: string;
   description: string;
-  imageTitle: string;
+  imageTitle?: string;
 }) => {
   const classes = useStyle();
+
   return (
     <>
       <Accordion>
@@ -35,7 +37,7 @@ export const BuildingAccordion = (props: {
         </AccordionSummary>
         <AccordionDetails>
           <img
-            src={require(`./../../assets/${props.imageTitle}`)}
+            src={extractImageSrc(props.imageTitle)}
             alt={`${props.imageTitle}`}
             className={classes.photo}
           />
