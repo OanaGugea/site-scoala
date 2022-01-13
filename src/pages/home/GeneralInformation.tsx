@@ -4,12 +4,11 @@ const useStyle = makeStyles(() => ({
   textContainer: {
     marginTop: "50px",
     width: "70%",
-    height: "500px",
     textAlign: "center",
   },
 }));
 
-export const Info = () => {
+export const GeneralInformation = () => {
   const classes = useStyle();
   return (
     <div className={classes.textContainer}>

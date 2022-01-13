@@ -5,29 +5,27 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 
 const useStyle = makeStyles(() => ({
-  imageContainer: {
-    display: "flex",
-    justifyContent: "center",
-  },
-  photo: {
+  imageSlider: {
     height: "300px",
-    margin: "0 15px",
-  },
-  photoWidth: {
-    width: "300px",
+    "& .awssld__bullets": {
+      bottom: 0,
+      zIndex: 2,
+    },
   },
 }));
 
 export const PhotoGrid = () => {
   const classes = useStyle();
+  const sliderImages = [frontPart, backPart];
   return (
-    <AwesomeSlider className={classes.photo}>
-      <div>
-        <img src={frontPart} alt="front-part" />
-      </div>
-      <div>
-        <img src={backPart} alt="back-yard" />
-      </div>
+    <AwesomeSlider className={classes.imageSlider}>
+      {sliderImages.map((imgSrc) => {
+        return (
+          <div>
+            <img src={imgSrc} alt={`${imgSrc}`} />
+          </div>
+        );
+      })}
     </AwesomeSlider>
   );
 };

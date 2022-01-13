@@ -1,6 +1,6 @@
 import { PhotoGrid } from "../../components/photo-grid/PhotoGrid";
-import { Info } from "./info";
-import { News } from "./news";
+import { GeneralInformation } from "./GeneralInformation";
+import { News } from "./News";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyle = makeStyles(() => ({
@@ -16,7 +16,7 @@ export const Home = () => {
     <>
       <PhotoGrid />
       <div className={classes.container}>
-        <Info />
+        <GeneralInformation />
         <News />
       </div>
     </>
