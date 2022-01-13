@@ -1,15 +1,8 @@
-import {
-  AppBar,
-  Container,
-  makeStyles,
-  Toolbar,
-  Typography,
-} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 const useStyle = makeStyles(() => ({
   appBar: {
     backgroundColor: "#Acc980",
-    display: "grid",
     justifyContent: "center",
     position: "fixed",
     bottom: 0,
@@ -21,15 +14,5 @@ const useStyle = makeStyles(() => ({
 
 export const Footer = () => {
   const classes = useStyle();
-  return (
-    <AppBar position="static" className={classes.appBar}>
-      <Container maxWidth="md">
-        <Toolbar>
-          <Typography variant="body1" color="inherit">
-            © 2021 Ringaro
-          </Typography>
-        </Toolbar>
-      </Container>
-    </AppBar>
-  );
+  return <footer className={classes.appBar}>© 2021 Ringaro</footer>;
 };
