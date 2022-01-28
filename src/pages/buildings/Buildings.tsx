@@ -9,6 +9,7 @@ export const Buildings = () => {
           title={item.title}
           description={item.description}
           imageTitle={item.imageTitle}
+          roomImageTitle={item.classImageTitle}
         />
       ))}
     </>

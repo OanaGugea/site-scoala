@@ -20,6 +20,7 @@ export const BuildingAccordion = (props: {
   title: string;
   description: string;
   imageTitle?: string;
+  roomImageTitle?: string;
 }) => {
   const classes = useStyle();
 
@@ -39,6 +40,11 @@ export const BuildingAccordion = (props: {
           <img
             src={extractImageSrc(props.imageTitle)}
             alt={`${props.imageTitle}`}
+            className={classes.photo}
+          />
+          <img
+            src={extractImageSrc(props.roomImageTitle)}
+            alt={`${props.roomImageTitle}`}
             className={classes.photo}
           />
           <Typography>{props.description}</Typography>

@@ -3,6 +3,7 @@ import { Home } from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Buildings } from "./pages/buildings/Buildings";
 import { makeStyles, Paper } from "@material-ui/core";
+import { MissionAndVision } from "./pages/mision/MissionAndVision";
 
 const useStyle = makeStyles(() => ({
   appContent: {
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route path={"/"} component={Home} exact />
           <Route path={"/structuri"} component={Buildings} />
+          <Route path={"/misiunea"} component={MissionAndVision} />
         </Switch>
       </Paper>
     </Router>
