@@ -5,6 +5,7 @@ import { Buildings } from "./pages/buildings/Buildings";
 import { makeStyles, Paper } from "@material-ui/core";
 import { MissionAndVision } from "./pages/mision/MissionAndVision";
 import { UtilsPage } from "./pages/utils/UtilsPage";
+import { ContactPage } from "./pages/contact/ContactPage";
 
 const useStyle = makeStyles(() => ({
   appContent: {
@@ -24,6 +25,7 @@ function App() {
           <Route path={"/structuri"} component={Buildings} />
           <Route path={"/misiunea"} component={MissionAndVision} />
           <Route path={"/utile"} component={UtilsPage} />
+          <Route path={"/contact"} component={ContactPage} />
         </Switch>
       </Paper>
     </Router>
