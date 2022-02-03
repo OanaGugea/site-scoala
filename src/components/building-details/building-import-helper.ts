@@ -26,7 +26,7 @@ export const extractImageSrc = (title?: string) => {
     case "clasaIlovaGradinita":
       return clasaIlovaGradinita;
     case "clasaSlatinaGradinita":
-      return clasaIlovaGradinita;
+      return clasaSlatinaGradinita;
     default:
       return sigla;
   }
