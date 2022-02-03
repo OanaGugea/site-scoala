@@ -1,8 +1,8 @@
 import { PhotoGrid } from "../../components/photo-grid/PhotoGrid";
 import { GeneralInformation } from "./GeneralInformation";
-import { News } from "./News";
 import { makeStyles } from "@material-ui/core/styles";
 import { Divider } from "@material-ui/core";
+import { UtilsPage } from "../utils/UtilsPage";
 
 const useStyle = makeStyles(() => ({
   container: {
@@ -12,6 +12,10 @@ const useStyle = makeStyles(() => ({
   divider: {
     height: "400px",
     marginTop: "5px",
+  },
+  sectionContainer: {
+    margin: "1%",
+    width: "30%",
   },
 }));
 
@@ -23,7 +27,9 @@ export const Home = () => {
       <div className={classes.container}>
         <GeneralInformation />
         <Divider orientation="vertical" flexItem className={classes.divider} />
-        <News />
+        <div className={classes.sectionContainer}>
+          <UtilsPage />
+        </div>
       </div>
     </>
   );
