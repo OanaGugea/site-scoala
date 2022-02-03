@@ -25,6 +25,7 @@ export const buildingsArray: BuildingDetail[] = [
   {
     title: "Gradinita Slatina-Timis",
     description: "Gradinita se afla intr-o cladire adiacenta scolii.",
+    classImageTitle: "clasaSlatinaGradinita",
   },
   {
     title: "Scoala Primara Ilova",

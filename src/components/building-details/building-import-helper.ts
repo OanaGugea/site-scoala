@@ -7,6 +7,7 @@ import clasaSlatinaGimnaziu from "../../assets/slatina-gimnaziu/slatina-gimanziu
 import clasaSlatinaPrimar from "../../assets/slatina-primar/slatina-primar-2.jpeg";
 import clasaIlovaPrimar from "../../assets/ilova-primar/ilova-primar-1.jpeg";
 import clasaIlovaGradinita from "../../assets/ilova-gradinita/ilova-gradinita-4.jpeg";
+import clasaSlatinaGradinita from "../../assets/slatina-gradinita/slatina-gradinita-2.jpeg";
 
 export const extractImageSrc = (title?: string) => {
   switch (title) {
@@ -23,6 +24,8 @@ export const extractImageSrc = (title?: string) => {
     case "clasaIlovaPrimar":
       return clasaIlovaPrimar;
     case "clasaIlovaGradinita":
+      return clasaIlovaGradinita;
+    case "clasaSlatinaGradinita":
       return clasaIlovaGradinita;
     default:
       return sigla;
