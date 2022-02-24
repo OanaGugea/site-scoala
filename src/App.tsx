@@ -8,6 +8,7 @@ import { UtilsPage } from "./pages/utils/UtilsPage";
 import { ContactPage } from "./pages/contact/ContactPage";
 import { NewsPage } from "./pages/news/NewsPage";
 import { PhotoGallery } from "./pages/gallery/PhotoGallery";
+import { LabsPage } from "./pages/labs/LabsPage";
 
 const useStyle = makeStyles(() => ({
   appContent: {
@@ -31,6 +32,7 @@ function App() {
           <Route path={"/contact"} component={ContactPage} />
           <Route path={"/anunturi"} component={NewsPage} />
           <Route path={"/galerie"} component={PhotoGallery} />
+          <Route path={"/laboratoare"} component={LabsPage} />
         </Switch>
       </Paper>
     </Router>
