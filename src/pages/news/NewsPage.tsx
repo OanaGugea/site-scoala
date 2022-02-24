@@ -24,7 +24,7 @@ export const NewsPage = () => {
         {contentHelper.map((content) => {
           return (
             <ListItem>
-              <a href={content.link} target="_blank">
+              <a href={content.link} target="_blank" rel="noreferrer noopener">
                 {content.description}
               </a>
             </ListItem>
