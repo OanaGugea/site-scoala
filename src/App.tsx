@@ -7,12 +7,14 @@ import { MissionAndVision } from "./pages/mision/MissionAndVision";
 import { UtilsPage } from "./pages/utils/UtilsPage";
 import { ContactPage } from "./pages/contact/ContactPage";
 import { NewsPage } from "./pages/news/NewsPage";
+import { PhotoGallery } from "./pages/gallery/PhotoGallery";
 
 const useStyle = makeStyles(() => ({
   appContent: {
     position: "relative",
     minHeight: "94vh",
     margin: "2% 5%",
+    overflowY: "auto",
   },
 }));
 function App() {
@@ -28,6 +30,7 @@ function App() {
           <Route path={"/utile"} component={UtilsPage} />
           <Route path={"/contact"} component={ContactPage} />
           <Route path={"/anunturi"} component={NewsPage} />
+          <Route path={"/galerie"} component={PhotoGallery} />
         </Switch>
       </Paper>
     </Router>
