@@ -23,7 +23,7 @@ export const MarkdownDisplay = (props: { fileName: string }) => {
 
   return (
     <div className={classes.textContainer}>
-      <ReactMarkdown>{markdown}</ReactMarkdown>
+      <ReactMarkdown linkTarget="_blank" >{markdown}</ReactMarkdown>
     </div>
   );
 };
