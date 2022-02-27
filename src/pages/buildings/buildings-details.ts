@@ -7,38 +7,38 @@ export interface BuildingDetail {
 
 export const buildingsArray: BuildingDetail[] = [
   {
-    title: "Scoala Gimaziala Slatina-Timis corp A",
+    title: "Școala Gimnazială Slatina-Timiș corp A",
     description:
-      "In corpul A al Scolii Gimaziale Slatina Timis se afla scoala primara. " +
-      "Aceasta cladire deserveste pentru clasele pregatitoare, I, II, III si IV.",
+      "În corpul A al Școlii Gimnaziale Slatina Timiș se află școala primară. " +
+      "Această clădire deservește pentru clasele pregătitoare, I, II, III și IV.",
     imageTitle: "primarSlatina",
     classImageTitle: "clasaSlatinaPrimar",
   },
   {
-    title: "Scoala Gimaziala Slatina-Timis corp B",
+    title: "Școala Gimnazială Slatina-Timiș corp B",
     description:
-      "In corpul A al Scolii Gimaziale Slatina Timis se afla scoala gimaziala. " +
-      "Aceasta cladire deserveste pentru clasele V-VIII.",
+      "În corpul A al Școlii Gimaziale Slatina Timiș se află școala gimnazială. " +
+      "Această clădire deservește pentru clasele V-VIII.",
     imageTitle: "frontPart",
     classImageTitle: "clasaSlatinaGimnaziu",
   },
   {
-    title: "Gradinita Slatina-Timis",
-    description: "Gradinita se afla intr-o cladire adiacenta scolii.",
+    title: "Grădinița Slatina-Timiș",
+    description: "Grădinița se află într-o clădire adiacentă școlii.",
     imageTitle: "gradinitaSlatina",
     classImageTitle: "clasaSlatinaGradinita",
   },
   {
-    title: "Scoala Primara Ilova",
+    title: "Școala Primară Ilova",
     description:
-      "In satul Ilova se regaseste structura corespunzatoare scolii primare din localitate (clasele pregatitoare, I, II, III si IV).",
+      "În satul Ilova se regăsește structura corespunzătoare școlii primare din localitate (clasele pregătitoare, I, II, III si IV).",
     imageTitle: "primarIlova",
     classImageTitle: "clasaIlovaPrimar",
   },
   {
-    title: "Gradinita Ilova",
+    title: "Grădinița Ilova",
     description:
-      "In satul Ilova se regaseste structura corespunzatoare gradinitei din localitate.",
+      "În satul Ilova se regăsește structura corespunzătoare gradinitei din localitate.",
     imageTitle: "primarIlova",
     classImageTitle: "clasaIlovaGradinita",
   },

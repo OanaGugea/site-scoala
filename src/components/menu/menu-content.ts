@@ -11,7 +11,7 @@ export interface ISubMenu {
 
 export const menuArray: IMenu[] = [
   {
-    name: "Acasa",
+    name: "Acasă",
     subMenu: [],
     link: "/",
   },
@@ -51,7 +51,7 @@ export const menuArray: IMenu[] = [
   //     subMenu: []
   // },
   {
-    name: "Anunturi",
+    name: "Anunțuri",
     subMenu: [],
     link: "/anunturi",
   },

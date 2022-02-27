@@ -13,7 +13,7 @@ export const newsContentArray: INewsContent[] = [
   {
     title: "Informare",
     content:
-      "Gradul de vaccinare in randul personalului angajat in Scoala Gimanziala Slatina-Timis: la nivelul institiutiei, rata generala de vaccinare a angajatilor este de x%.",
+      "Gradul de vaccinare în rândul personalului angajat în Școala Gimnazială Slatina-Timiș: la nivelul instituției, rata generală de vaccinare a angajaților este de x%.",
   },
   // {
   //   title: "Post vacant",

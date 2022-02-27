@@ -10,20 +10,20 @@ export const slatinaPrimarGallery: IGalleryContent[] = [
     thumbnail: image1,
     thumbnailWidth: 320,
     thumbnailHeight: 174,
-    caption: "Scoala Gimnaziala Slatina-Timis corp A",
+    caption: "Școala Gimnazială Slatina-Timiș corp A",
   },
   {
     src: image2,
     thumbnail: image2,
     thumbnailWidth: 320,
     thumbnailHeight: 174,
-    caption: "Scoala Gimnaziala Slatina-Timis corp A",
+    caption: "Școala Gimnazială Slatina-Timiș corp A",
   },
   {
     src: image3,
     thumbnail: image3,
     thumbnailWidth: 320,
     thumbnailHeight: 174,
-    caption: "Scoala Gimnaziala Slatina-Timis corp A",
+    caption: "Școala Gimnazială Slatina-Timiș corp A",
   },
 ];
