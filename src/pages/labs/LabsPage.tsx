@@ -13,6 +13,7 @@ export const LabsPage = () => {
   const classes = useStyle();
   return (
     <div className={classes.container}>
+      <h2>Laboratorul de Informatică:</h2>
       <Gallery images={labsGallery} />
     </div>
   );

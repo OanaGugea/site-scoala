@@ -11,9 +11,11 @@ export interface INewsContent {
 
 export const newsContentArray: INewsContent[] = [
   {
-    title: "Informare",
+    title: "Informare privind gradul de vaccinare în rândul personalului angajat",
     content:
-      "Gradul de vaccinare în rândul personalului angajat în Școala Gimnazială Slatina-Timiș: la nivelul instituției, rata generală de vaccinare a angajaților este de x%.",
+      "Potrivit datelor centralizate la nivelul instituției, la data de 01.11.2021, rata generală de vaccinare a ajuns" + 
+      "la 65% din totalul celor 23 de angajați ai unității de învățământ. Raportat la personalul care deține funcții" +
+      "de conducere, ponderea celor vaccinați este de 100%.",
   },
   // {
   //   title: "Post vacant",
