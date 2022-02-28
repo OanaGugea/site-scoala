@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/site-scoala/static/js/main.fdce3edc.chunk.js",
-    "main.js.map": "/site-scoala/static/js/main.fdce3edc.chunk.js.map",
+    "main.js": "/site-scoala/static/js/main.304ca6ef.chunk.js",
+    "main.js.map": "/site-scoala/static/js/main.304ca6ef.chunk.js.map",
     "runtime-main.js": "/site-scoala/static/js/runtime-main.ae3d4642.js",
     "runtime-main.js.map": "/site-scoala/static/js/runtime-main.ae3d4642.js.map",
     "static/css/2.34b29efe.chunk.css": "/site-scoala/static/css/2.34b29efe.chunk.css",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.ae3d4642.js",
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.6670974b.chunk.js",
-    "static/js/main.fdce3edc.chunk.js"
+    "static/js/main.304ca6ef.chunk.js"
   ]
 }
