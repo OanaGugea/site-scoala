@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/site-scoala/static/js/main.4bc1a954.chunk.js",
-    "main.js.map": "/site-scoala/static/js/main.4bc1a954.chunk.js.map",
+    "main.js": "/site-scoala/static/js/main.c1d7d65c.chunk.js",
+    "main.js.map": "/site-scoala/static/js/main.c1d7d65c.chunk.js.map",
     "runtime-main.js": "/site-scoala/static/js/runtime-main.ae3d4642.js",
     "runtime-main.js.map": "/site-scoala/static/js/runtime-main.ae3d4642.js.map",
     "static/css/2.34b29efe.chunk.css": "/site-scoala/static/css/2.34b29efe.chunk.css",
-    "static/js/2.6670974b.chunk.js": "/site-scoala/static/js/2.6670974b.chunk.js",
-    "static/js/2.6670974b.chunk.js.map": "/site-scoala/static/js/2.6670974b.chunk.js.map",
+    "static/js/2.553ebcf7.chunk.js": "/site-scoala/static/js/2.553ebcf7.chunk.js",
+    "static/js/2.553ebcf7.chunk.js.map": "/site-scoala/static/js/2.553ebcf7.chunk.js.map",
     "index.html": "/site-scoala/index.html",
     "static/css/2.34b29efe.chunk.css.map": "/site-scoala/static/css/2.34b29efe.chunk.css.map",
-    "static/js/2.6670974b.chunk.js.LICENSE.txt": "/site-scoala/static/js/2.6670974b.chunk.js.LICENSE.txt",
+    "static/js/2.553ebcf7.chunk.js.LICENSE.txt": "/site-scoala/static/js/2.553ebcf7.chunk.js.LICENSE.txt",
     "static/media/BuildingsCollage.e2f345f9.jpg": "/site-scoala/static/media/BuildingsCollage.e2f345f9.jpg",
     "static/media/back-yard.7f6092e3.jpeg": "/site-scoala/static/media/back-yard.7f6092e3.jpeg",
     "static/media/contactInfo.2e8ae8b1.md": "/site-scoala/static/media/contactInfo.2e8ae8b1.md",
@@ -58,7 +58,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae3d4642.js",
     "static/css/2.34b29efe.chunk.css",
-    "static/js/2.6670974b.chunk.js",
-    "static/js/main.4bc1a954.chunk.js"
+    "static/js/2.553ebcf7.chunk.js",
+    "static/js/main.c1d7d65c.chunk.js"
   ]
 }
