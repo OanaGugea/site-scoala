@@ -19,11 +19,15 @@ export const menuArray: IMenu[] = [
     name: "Despre",
     subMenu: [
       {
+        name: "Scurt istoric",
+        link: "/istoric",
+      },
+      {
         name: "Structuri",
         link: "/structuri",
       },
       {
-        name: "Laboratoare",
+        name: "Baza materială",
         link: "/laboratoare",
       },
       {
@@ -32,24 +36,80 @@ export const menuArray: IMenu[] = [
       },
     ],
   },
-  // {
-  //     name: 'Elevi',
-  //     subMenu: [
-  //         {
-  //             name: 'Clase',
-  //             link: 'link 1'
-  //         },
-  //     ]
-  // },
   {
-    name: "Utile",
+    name: "Elevi",
+    subMenu: [
+      {
+        name: "Clase",
+        link: "/clase",
+      },
+      {
+        name: "Lideri pe clase",
+        link: "/lideri",
+      },
+      {
+        name: "Consiliul elevilor",
+        link: "/consiliu",
+      },
+      {
+        name: "Excelență",
+        link: "/excelenta",
+      },
+    ],
+  },
+  {
+    name: "Profesori",
     subMenu: [],
-    link: "/utile",
+    link: "/profesori",
+  },
+  {
+    name: "Părinți",
+    subMenu: [
+      {
+        name: "Asociația de părinți",
+        link: "/acociatia",
+      },
+      {
+        name: "Comitete de părinți",
+        link: "/comitete",
+      },
+    ],
+  },
+  {
+    name: "Proiecte și parteneriate",
+    subMenu: [
+      {
+        name: "Proiecte și acțiuni locale",
+        link: "/local",
+      },
+      {
+        name: "Proiecte regionale",
+        link: "/regional",
+      },
+      {
+        name: "Proiecte naționale",
+        link: "/national",
+      },
+      {
+        name: "Proiecte internaționale",
+        link: "/international",
+      },
+      {
+        name: "Parteneriate",
+        link: "/parteneriate",
+      },
+    ],
   },
   // {
-  //     name: 'Proiecte',
-  //     subMenu: []
+  //   name: "Utile",
+  //   subMenu: [],
+  //   link: "/utile",
   // },
+  {
+    name: "Extracurriculare",
+    subMenu: [],
+    link: "/extra",
+  },
   {
     name: "Anunțuri",
     subMenu: [],

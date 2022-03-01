@@ -21,7 +21,7 @@ const useStyle = makeStyles(() => ({
 function App() {
   const classes = useStyle();
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Paper elevation={3} className={classes.appContent}>
         <Header />
         <Switch>
