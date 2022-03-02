@@ -17,6 +17,10 @@ const useStyle = makeStyles(() => ({
     display: "grid",
     justifyContent: "center",
   },
+  menuEntry: {
+    textTransform: "none",
+    paddingRight: "1%",
+  },
 }));
 
 export const MenuComponent = () => {
@@ -97,6 +101,7 @@ export const MenuComponent = () => {
           id="basic-button"
           key={item.name}
           onClick={(event) => menuOnClick(event, item.name)}
+          className={classes.menuEntry}
         >
           {item.name}
         </Button>
