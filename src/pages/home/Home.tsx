@@ -10,7 +10,7 @@ const useStyle = makeStyles(() => ({
     flexDirection: "row",
   },
   divider: {
-    height: "400px",
+    height: "450px",
     marginTop: "5px",
   },
   sectionContainer: {
