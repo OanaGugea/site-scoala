@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/site-scoala/static/js/main.2808315d.chunk.js",
-    "main.js.map": "/site-scoala/static/js/main.2808315d.chunk.js.map",
+    "main.js": "/site-scoala/static/js/main.3e15f1d9.chunk.js",
+    "main.js.map": "/site-scoala/static/js/main.3e15f1d9.chunk.js.map",
     "runtime-main.js": "/site-scoala/static/js/runtime-main.ae3d4642.js",
     "runtime-main.js.map": "/site-scoala/static/js/runtime-main.ae3d4642.js.map",
     "static/css/2.34b29efe.chunk.css": "/site-scoala/static/css/2.34b29efe.chunk.css",
@@ -52,13 +52,13 @@
     "static/media/slatina-primar-1.c1f7f09c.jpeg": "/site-scoala/static/media/slatina-primar-1.c1f7f09c.jpeg",
     "static/media/slatina-primar-2.596d38d8.jpeg": "/site-scoala/static/media/slatina-primar-2.596d38d8.jpeg",
     "static/media/slatina-primar-3.9ab2159a.jpeg": "/site-scoala/static/media/slatina-primar-3.9ab2159a.jpeg",
-    "static/media/utilsInfo.7b16c1f6.md": "/site-scoala/static/media/utilsInfo.7b16c1f6.md",
+    "static/media/utilsInfo.60112e54.md": "/site-scoala/static/media/utilsInfo.60112e54.md",
     "static/media/viziunea.65b07e16.jpg": "/site-scoala/static/media/viziunea.65b07e16.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae3d4642.js",
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.00d2ec68.chunk.js",
-    "static/js/main.2808315d.chunk.js"
+    "static/js/main.3e15f1d9.chunk.js"
   ]
 }
