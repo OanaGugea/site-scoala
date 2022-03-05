@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/site-scoala/static/js/main.5168aa7a.chunk.js",
-    "main.js.map": "/site-scoala/static/js/main.5168aa7a.chunk.js.map",
+    "main.js": "/site-scoala/static/js/main.17524761.chunk.js",
+    "main.js.map": "/site-scoala/static/js/main.17524761.chunk.js.map",
     "runtime-main.js": "/site-scoala/static/js/runtime-main.ae3d4642.js",
     "runtime-main.js.map": "/site-scoala/static/js/runtime-main.ae3d4642.js.map",
     "static/css/2.34b29efe.chunk.css": "/site-scoala/static/css/2.34b29efe.chunk.css",
@@ -34,6 +34,7 @@
     "static/media/misiunea.02f88cd2.jpg": "/site-scoala/static/media/misiunea.02f88cd2.jpg",
     "static/media/primar-ilova.40dd990a.jpeg": "/site-scoala/static/media/primar-ilova.40dd990a.jpeg",
     "static/media/primar-slatina.fb48b04d.jpeg": "/site-scoala/static/media/primar-slatina.fb48b04d.jpeg",
+    "static/media/professor-helper.874801d9.md": "/site-scoala/static/media/professor-helper.874801d9.md",
     "static/media/sigla.e444f3cc.png": "/site-scoala/static/media/sigla.e444f3cc.png",
     "static/media/slatina-gimanziu-1.eb05a37a.jpeg": "/site-scoala/static/media/slatina-gimanziu-1.eb05a37a.jpeg",
     "static/media/slatina-gimanziu-2.27648eeb.jpeg": "/site-scoala/static/media/slatina-gimanziu-2.27648eeb.jpeg",
@@ -59,6 +60,6 @@
     "static/js/runtime-main.ae3d4642.js",
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.c50aad49.chunk.js",
-    "static/js/main.5168aa7a.chunk.js"
+    "static/js/main.17524761.chunk.js"
   ]
 }
