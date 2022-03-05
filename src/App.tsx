@@ -9,6 +9,8 @@ import { ContactPage } from "./pages/contact/ContactPage";
 import { NewsPage } from "./pages/news/NewsPage";
 import { PhotoGallery } from "./pages/gallery/PhotoGallery";
 import { LabsPage } from "./pages/labs/LabsPage";
+import {DefaultPage} from "./pages/default/DefaultPage";
+import {ProfessorsPage} from "./pages/professor/ProfessorsPage";
 
 const useStyle = makeStyles(() => ({
   appContent: {
@@ -21,7 +23,7 @@ const useStyle = makeStyles(() => ({
 function App() {
   const classes = useStyle();
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Paper elevation={3} className={classes.appContent}>
         <Header />
         <Switch>
@@ -33,6 +35,8 @@ function App() {
           <Route path={"/anunturi"} component={NewsPage} />
           <Route path={"/galerie"} component={PhotoGallery} />
           <Route path={"/laboratoare"} component={LabsPage} />
+          <Route path={"/profesori"} component={ProfessorsPage} />
+          <Route component={DefaultPage} />
         </Switch>
       </Paper>
     </Router>
